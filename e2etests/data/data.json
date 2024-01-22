@@ -1,0 +1,25 @@
+{
+  "URL": "https://shermansnow.com.staging-stable.nmg-platform.com/",
+  "validEmail": "nmg-primeworks@yopmail.com",
+  "invalidEmail": "nmg-primeworksxxxxx@yopmail.com",
+  "validPassword": "Test123-",
+  "invalidPassword": "Test123-xx",
+  "zipCode": "61761",
+  "zipCodeBilling": "",
+  "billingForm": {
+    "addres": "3506b West 8th Street Koreatown",
+    "zipCodeBilling": "90005",
+    "phoneNum": "321-564-2135",
+    "city": "Los Angeles",
+    "firstName": "Test",
+    "lastName": "NMG",
+    "state": "California"
+  },
+  "formPaymemt":{
+    "numberCreditcard":"4032038008952313",
+    "numberCcv":"555",
+    "expiryMonth":"November",
+    "expiryYear":"2025"
+
+  }
+}

@@ -1,0 +1,9 @@
+{
+
+    "username_txt": "#username",
+    "password_txt": "input[id='password']",
+    "continue_button": "//button[text()='Continue']",
+    "errorLogin_message": "#error-element-passwords"
+  
+
+}

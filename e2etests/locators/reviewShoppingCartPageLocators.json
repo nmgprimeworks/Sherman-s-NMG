@@ -1,0 +1,10 @@
+{
+
+
+"addZipCode_txt":"input[name='new-delivery-zip']",
+"checkZipCode_button":"//button[text()='Check']",
+"continueShopping_button":"//a[text()='Continue Shopping']",
+"wareHousePickUp_radioButton":"#cart-delivery-option-pickup",
+"StartCheckout_button":"//a[text()='Start Checkout']"
+
+}

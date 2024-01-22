@@ -1,0 +1,11 @@
+{
+  
+    "account_Button": "//a[@href='/api/auth/login?path=my-account']", 
+    "appliaces_Button": "//a[@href='/appliances']", 
+    "appliaces_tittle": "//h1[text()='Appliances']", 
+    "search_txt": "//input[@id=':r0:']", 
+    "search_Button": "//input[@id=':r0:']", 
+    "itemSelected_Button": "img[src='https://images.webfronts.com/cache/frrprncwwebr.jpg?imgeng=/h_320/m_letterbox_ffffff_100']" 
+
+
+}
