@@ -29,6 +29,7 @@ Below is the step by step of installing the necessary libraries to create the pr
 4. npm i ts-node -D
 5. npm i cucumber-html-reporter -D
 6. npm install multiple-cucumber-html-reporter --save-dev
+7. npx tsc --init
 
 ## Folder structure
 The pattern design that is used in the project is POM (Page Object Model).POM allows que de project can be organized, understandable for other programmers. This pattern suggest the following folder structure that is applied in the project:
