@@ -23,7 +23,7 @@ In this section you can figure out some general features of the project.
 * Google chrome
 
 Below is the step by step of installing the necessary libraries to create the project
-1. npm init playwright@latesd
+1. npm install -D @playwright/test@latest
 2. npm i @cucmber/cucumber -D
 3. npm i typescript -D
 4. npm i ts-node -D
