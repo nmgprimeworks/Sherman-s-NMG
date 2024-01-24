@@ -54,7 +54,7 @@ The pattern design that is used in the project is POM (Page Object Model).POM al
   
 ### To get latest source code (Repository cloning)
 Repository cloning:
-git clone https://github.com/nmgprimeworks/Sherman-s-NMG.git
+git clone https: https://github.com/nmgprimeworks/Sherman-s-NMG.git
 
 After cloning the project repository, it must be taken into account that the only branch that the repository has is the main one, which is why a branch must be created for the modifications to be made.
 
