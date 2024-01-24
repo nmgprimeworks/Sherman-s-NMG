@@ -33,13 +33,13 @@ Below is the step by step of installing the necessary libraries to create the pr
 ## Folder structure
 The pattern design that is used in the project is POM (Page Object Model).POM allows que de project can be organized, understandable for other programmers. This pattern suggest the following folder structure that is applied in the project:
 
-*Steps Folder: this folder contains the classes with the steps that cucumber tool gives after every feature it is executed the fist time. 
- Note: To every feature belongs one step class.
-*Locators Folder: this folder contains files type "jason", where are the locators of the elementes of the websites.
-*Actions Folder: this folder contains the classes where is programed every action it is gonna be executed in the automation.
-*Feature Folder: this folder contains the files con the scenarios os the test ,written in a common lenguage then later it can be translate to machine lenguage, to program every test.
-*Data Folder: this folder contains the files type "jason", where are the neccesary data to executed the test cases.
-*Utils Folder: this folder contains some classes with specific and repetitive tasks that will use in the project.
+1. Steps Folder: this folder contains the classes with the steps that cucumber tool gives after every feature it is executed the fist time. 
+   Note: To every feature belongs one step class.
+2. Locators Folder: this folder contains files type "jason", where are the locators of the elementes of the websites.
+3. Actions Folder: this folder contains the classes where is programed every action it is gonna be executed in the automation.
+4. Feature Folder: this folder contains the files con the scenarios os the test ,written in a common lenguage then later it can be translate to machine lenguage, to program every test.
+5. Data Folder: this folder contains the files type "jason", where are the neccesary data to executed the test cases.
+6. Utils Folder: this folder contains some classes with specific and repetitive tasks that will use in the project.
 
 ## Notes
 ### Others files
