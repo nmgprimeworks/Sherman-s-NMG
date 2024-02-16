@@ -1,11 +1,19 @@
 {
   
-    "account_Button": "//a[@href='/api/auth/login?path=my-account']", 
-    "appliaces_Button": "//a[@href='/appliances']", 
+    "account_button": "//a[@href='/api/auth/login?path=my-account']", 
+    "appliaces_button": "//a[@href='/appliances']", 
     "appliaces_tittle": "//h1[text()='Appliances']", 
     "search_txt": "//input[@id=':r0:']", 
-    "search_Button": "//input[@id=':r0:']", 
-    "itemSelected_Button": "img[src='https://images.webfronts.com/cache/frrprncwwebr.jpg?imgeng=/h_320/m_letterbox_ffffff_100']" 
+    "search_button": "//input[@id=':r0:']", 
+    "itemSelected_button": "img[src='https://images.webfronts.com/cache/frrprncwwebr.jpg?imgeng=/h_320/m_letterbox_ffffff_100']",
+    "wishListPage_button": "//a[@href='/my-account/wishlist']",
+    "nameItem_title": "(//a[@class='ProductList_itemName__FlS7V'])[1]",
+    "compareFirstItem_checkBox": "(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[1]",
+    "compareSecondItem_checkBox": "(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[2]",
+    "goTocompare_button": "//button[text()='GO TO COMPARE']",
+    "titleFirstItem_title": "(//a[@class='ProductList_itemName__FlS7V'])[1]",
+    "titleSecondItem_title": "(//a[@class='ProductList_itemName__FlS7V'])[2]",
+    "contactUsPage_button": "//a[text()='Contact Your Store']"
 
 
 }

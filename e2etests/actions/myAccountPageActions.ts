@@ -1,19 +1,19 @@
 import { Page, expect } from "@playwright/test"
 import myAccountPageLocators from "../locators/myAccountPageLocators.json"
 
-export default class myAccountPageActions{
+export default class myAccountPageActions {
 
-page:Page
+    page: Page
 
 
-constructor(page:Page){
-    this.page = page
-}
+    constructor(page: Page) {
+        this.page = page
+    }
 
-async validateMyAccountTittle(){
-    await expect(this.page.locator(myAccountPageLocators.myAccount_tittle)).toBeVisible
-    
-}
+    async validateMyAccountTittle() {
+        await expect(this.page.locator(myAccountPageLocators.myAccount_tittle)).toBeVisible
+
+    }
 
 
 

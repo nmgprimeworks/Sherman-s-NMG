@@ -36,7 +36,7 @@ export default class loginPageActions {
     }
 
     async login() {
-        await this.page.locator(homePageLocators.account_Button).click()
+        await this.page.locator(homePageLocators.account_button).click()
         await this.page.locator(loginPageLocators.username_txt).fill(data.validEmail)
         await this.page.locator(loginPageLocators.password_txt).fill(data.validPassword)
         await this.page.locator(loginPageLocators.continue_button).click();

@@ -1,0 +1,21 @@
+{
+
+"name_text":"//input[@name='name']",
+"email_text":"//input[@name='email']",
+"productSku_text":"//input[@name='product_sku']",
+"phone_txt":"//input[@name='phone']",
+"city_txt":"//input[@name='city']",
+"productDetails_txt":"//textarea[@name='product_details']",
+"message_txt":"//textarea[@name='message']",
+"copyEmail_checkBox":"//input[@name='cc_email']",
+"submit_button":"//button[text()='Submit']",
+"queryReceived_message":"//div[text()='We have received your query. You will hear from us in 24hrs.']",
+"store_lst":"//div[@id='mui-component-select-my_store']",
+"normalIl_option":"//li[text()='Normal, IL']",
+"peoriaIl_option":"//li[text()='Peoria, IL']",
+"peruIl_option":"//li[text()='Peru, IL']",
+"wareHouse_option":"//li[text()='Warehouse Clearance Center']",
+"inquiryReceivedEmail_message":"#mail"
+
+
+}

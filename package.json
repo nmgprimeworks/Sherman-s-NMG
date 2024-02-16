@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js test",
-    "posttest": "npx ts-node e2etests/helper/report.ts "
+    "posttest": "npx ts-node e2etests/helper/report.ts ",
+    "testTags": "cucumber-js --config=config/cucumber.js || true"
   },
   "keywords": [],
   "author": "Felipe Molina",

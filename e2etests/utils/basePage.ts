@@ -32,6 +32,7 @@ After(async function ({ pickle, result }) {
         const img = await page.screenshot({ path: `./test-results/screenshots/${pickle.name}.png`, type: "png" })
         await this.attach(img, "image/png")
         await this.attach(fs.readFileSync(videoPath),'video/webm')
+       
     }
 
 

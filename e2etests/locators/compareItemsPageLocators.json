@@ -1,0 +1,7 @@
+{
+
+    "titleFirstItemCompared": "(//p[@class='MuiTypography-root MuiTypography-body1 sc-pyfCe gGWgxN sc-iAEawV cXcdnY css-ept5mt'])[1]",
+    "titleSecondItemCompared": "(//p[@class='MuiTypography-root MuiTypography-body1 sc-pyfCe gGWgxN sc-iAEawV cXcdnY css-ept5mt'])[2]",
+    "squareSpecifications": "//div[@class='sc-ifSILs dVZqPa']"
+
+}

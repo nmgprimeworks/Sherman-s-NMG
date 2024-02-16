@@ -1,13 +1,12 @@
-Feature: Buy an item into the sherman website
-   The user wants to buy an item into sherman website
+Feature: User anonymous buys an item into the sherman website
+   The user anonymous wants to buy an item into sherman website
 
 
 Background:
 Given User visit the sherman website
 
-@only
-   Scenario: buy an item
-    When User logs in website
+@test 
+   Scenario: User anonymous buys an item
     And User searches and adds an item to cart
     And User fills out the form
     And User makes the purchase

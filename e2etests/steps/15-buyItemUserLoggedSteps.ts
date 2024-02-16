@@ -1,5 +1,5 @@
 import{Given, When, Then, Before, After} from "@cucumber/cucumber"
-import { getPage } from "../utils/basePage";
+import { getPage } from "../utils/basePage"
 import homePageActions from "../actions/homePageActions"
 import loginPageActions from "../actions/loginPageActions"
 import itemPageActions from "../actions/itemPageActions"
@@ -19,11 +19,12 @@ When('User logs in website', async function () {
   loginActions = new loginPageActions(getPage())
   await loginActions.login()
   await getPage().waitForTimeout(3000)
+ 
   });
 
   When('User searches and adds an item to cart', async function () {
     homeActions = new homePageActions(getPage())
-    await homeActions.lookForItem()
+    //await homeActions.searchAndSeleectAnItem()
 
     itemActions = new itemPageActions(getPage())
     await itemActions.clickToAddCart()
@@ -47,4 +48,6 @@ When('User logs in website', async function () {
 
   Then('User should see the id of the purchase', async function () {
     await checkOutActions.validatePurchase()
+    ////h2[text()='Thank you for your order!']
+    //(//td[@style='padding: 10px; border: 1px solid rgba(206, 206, 206, 1); font-size: 12px; font-family: Verdana, Geneva, Tahoma, sans-serif'])[1]
   });

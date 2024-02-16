@@ -2,7 +2,9 @@
 
 
 
-    "addToCart_Button": "//button[text()='Add to Cart']"
+    "addToCart_button": "//button[text()='Add to Cart']",
+    "addToWishList_button": "//button[text()='Add to Wishlist']",
+    "titleItem_title": "h1[class='MuiTypography-root MuiTypography-body1 ProductDetail_productTitle__pmpFC css-ttpw7j']"
 
 
 

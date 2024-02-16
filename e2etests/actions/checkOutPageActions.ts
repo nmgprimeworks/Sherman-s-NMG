@@ -43,16 +43,23 @@ export default class checkOutPageActions{
     }
 
     async validatePurchase() {
-        const idPurchase = await this.page.locator(checkOutPageLocators.id_message).textContent
+        const idPurchase = await this.page.locator(checkOutPageLocators.id_message).allTextContents()
+        const idPurchaseStr = String(idPurchase)
+        //console.log("este es el id de la compra "+ idPurchaseStr)
         await getPage().goto("https://yopmail.com/es/")
         await this.page.waitForTimeout(3000);
         await this.page.locator(checkOutPageLocators.emailYopmail_txt).fill(data.validEmail)
         await this.page.keyboard.press('Enter');
         await this.page.waitForTimeout(2000);
-        const idEmail = await this.page.locator(checkOutPageLocators.idEmail_message).textContent
-        console.log(idPurchase)
-        console.log(idEmail)
-        expect(idPurchase).toEqual(idEmail)
+       // const idEmail = await this.page.locator("//td[text()='"+ idPurchaseOk +"']")
+        const idEmail = await this.page.locator(checkOutPageLocators.idEmail_message).allInnerTexts()
+        //const idEmail = await this.page.locator("//h2[text()='Thank you for your order!']")
+        const idEmailStr = String(idEmail)
+        //console.log("este es el id del email "+idEmailStr)
+        await this.page.waitForTimeout(3000)
+       // await expect(idEmail).toHaveText(idPurchaseStr)    
+       expect(idEmailStr).toEqual(idPurchaseStr)
+       
 
     }
     

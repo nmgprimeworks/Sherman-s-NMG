@@ -1,0 +1,8 @@
+{
+
+"nameItem_title": "span[class='MyAccount_itemName__8gan6']",
+"removeItemWishList_button": "//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MyAccount_favIcon__hnOEX css-1j7qk7u']",
+"yesRemoveItem_button": "//button[text()='Yes']"
+
+
+}
