@@ -24,7 +24,7 @@ When('User logs in website', async function () {
 
   When('User searches and adds an item to cart', async function () {
     homeActions = new homePageActions(getPage())
-    //await homeActions.searchAndSeleectAnItem()
+    await homeActions.searchAndSeleectAnItem()
 
     itemActions = new itemPageActions(getPage())
     await itemActions.clickToAddCart()
